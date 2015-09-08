@@ -3,17 +3,17 @@
 
 ## Description
 
-Class LineDeleter - in a file delete every line that contain a CERTAIN word
+Class LineDeleter - delete every line in a file that contain a CERTAIN string specify
 
 Class SyncSubtitle - increase or decrease seconds in a subtitle file (*.srt) so that it synchronizes the video
 
 ==========
 ## Syntax
 
-* Class LineDeleter - java LineDeleter fileName word
+* Class LineDeleter - java LineDeleter fileName stringSpecify
 
-Example: java LineDeleter public.sql drop
+<pre>java LineDeleter public.sql drop</pre>
   
 * Class SyncSubtitle - java SyncSubtitle subtitleFile.srt numberOfSeconds
 
-Example: java SyncSubtitle movie.srt 10
+<pre>java SyncSubtitle movie.srt 10</pre>
