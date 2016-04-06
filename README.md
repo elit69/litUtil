@@ -7,6 +7,8 @@ Class LineDeleter - delete every line in a file that contain a CERTAIN string sp
 
 Class SyncSubtitle - increase or decrease seconds in a subtitle file (*.srt) so that it synchronizes the video
 
+Class PvkConvert - http://www.jensign.com/JavaScience/PvkConvert/
+
 ==========
 ## Syntax
 
